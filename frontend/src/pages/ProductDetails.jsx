@@ -114,11 +114,11 @@ const ProductDetails = () => {
 
           <div className="flex items-end gap-4 border-b-4 border-black pb-6">
             <span className="text-5xl font-black bg-brutal-green px-3 py-1 border-4 border-black shadow-brutal-sm">
-              ${parseFloat(product.price).toFixed(2)}
+              ₹{parseFloat(product.price).toFixed(2)}
             </span>
             {product.compare_at_price && (
               <span className="text-2xl font-bold text-slate-500 line-through decoration-4 decoration-brutal-pink">
-                ${parseFloat(product.compare_at_price).toFixed(2)}
+                ₹{parseFloat(product.compare_at_price).toFixed(2)}
               </span>
             )}
           </div>

@@ -39,11 +39,11 @@ const ProductCard = ({ product }) => {
         <div className="flex flex-col gap-2">
           <div className="flex items-end gap-2">
             <span className="text-3xl font-black text-black bg-brutal-green px-2 py-1 border-2 border-black shadow-brutal-sm">
-              ${parseFloat(product.price || 0).toFixed(2)}
+              ₹{parseFloat(product.price || 0).toFixed(2)}
             </span>
             {product.compare_at_price && (
               <span className="text-lg font-bold text-slate-500 line-through decoration-2 decoration-brutal-pink px-1">
-                ${parseFloat(product.compare_at_price).toFixed(2)}
+                ₹{parseFloat(product.compare_at_price).toFixed(2)}
               </span>
             )}
           </div>
