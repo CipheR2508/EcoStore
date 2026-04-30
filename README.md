@@ -90,7 +90,7 @@ npm start
 ## 🛠️ Tech Stack
 - **Backend**: Node.js, Express, MySQL, JWT, Joi
 - **Frontend**: React, Vite, Tailwind CSS
-- **Design**: Modern UI with Glassmorphism/Neobrutalism elements
+- **Design**: Modern UI
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repo and submit a pull request.
